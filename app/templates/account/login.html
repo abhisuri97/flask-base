@@ -1,4 +1,7 @@
 {% extends 'layouts/base.html' %}
+{% block custom_scripts %}
+<script> alert('Hello World') </script>
+{% endblock %}
 {% import 'macros/form_macros.html' as f %}
 
 {% block content %}
